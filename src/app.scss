@@ -1,0 +1,51 @@
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #031d1c;
+
+    section {
+        height:  100%;
+        width: 100%;
+    }
+
+    .conversation-area {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        .input-area {
+            width: 70%;
+            position: absolute;
+            background-color: #3c3c3c;
+            border: 1px solid #3c3c3c;
+            border-radius: 0.5rem;
+            bottom: 1rem;
+
+            input {
+                width: 80%;
+                padding: 0.5rem 0.7 rem;
+                outline: none;
+                border: none;
+                border-radius: 0.5rem;
+                background-color: transparent;
+                color: rgb(227, 224, 224);
+            }
+
+            button {
+                width: 20%;
+                padding: 0.5rem 0.7rem;
+                border-radius: 0.5rem;
+                border: none;
+                background-color: #161616;
+                color: #f5f2f7;
+                cursor: pointer;
+            }
+        }
+
+
+    }
+
+}
