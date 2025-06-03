@@ -16,6 +16,32 @@ main {
         align-items: center;
         position: relative;
 
+        .messages {
+            height: 100%;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.1rem;
+            padding-bottom: 4rem;
+            padding: 0.5rem;
+
+            .message {
+                color: rgb(227, 224, 224);
+                width: fit-content;
+                background-color: #4a4a4a;
+                padding: 0.5rem 1rem;
+                border-radius: 0.5rem;
+                max-width: 75%;
+
+                &.user {
+                    align-self: flex-end;
+                    background-color: #161616;
+                }
+            }
+
+
+        }
+
         .input-area {
             width: 70%;
             position: absolute;
